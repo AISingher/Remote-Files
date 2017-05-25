@@ -1,7 +1,11 @@
 # Remote-Files
 
-File server and interface for clients to connect to and transfer files from a remote host.
+Client-server file network intended for Rutgers iLab machines
 
-Relies on a  customized messaging system and file descriptors for operations, implemented in C.
+Clients can run commands for files hosted on server:
+* open
+* close
+* read
+* write
 
-Commands: open, close, read, and write.
+Relies on a  customized messaging system and file descriptors for operations between server and client
