@@ -1,6 +1,7 @@
 # Remote-Files
-Client-server file network for Rutgers iLab machines.
 
-Regular file commands: open, close, read, and write.
+File server and interface for clients to connect to and transfer files from a remote host.
 
-Clients and server know what to do based on messaging format in string sent.
+Relies on a  customized messaging system and file descriptors for operations, implemented in C.
+
+Commands: open, close, read, and write.
